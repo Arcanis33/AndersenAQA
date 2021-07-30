@@ -19,7 +19,7 @@ public class HomeWorkApp {
       int third = (first + second);
       if (third >=0) {
           System.out.println("Сумма положительная и равняется " + third);
-      }else {
+      } else {
           System.out.println("Сумма отрицательная и равняется " + third);
       }
 
@@ -28,9 +28,9 @@ public class HomeWorkApp {
      int value = 101;
      if(value <= 0) {
          System.out.println("Красный");
-     }else if (value <= 100) {
+     } else if (value <= 100) {
          System.out.println("Желтый");
-     }else{
+     } else {
          System.out.println("Зеленый");
       }
 
