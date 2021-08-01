@@ -128,10 +128,10 @@ public class HomeworkSecondLesson {
     }
 
     //десятое задание
-    static int HomeworkTenth(int len, int initialValue) {
-        int arr[] = new int[len];
-        Arrays.fill(arr, initialValue);
-        return len;
+    static int[] HomeworkTenth(int len, int initialValue) {
+        int array[] = new int[len];
+        Arrays.fill(array, initialValue);
+        return array;
     }
 }
 
