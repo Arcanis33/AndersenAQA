@@ -9,11 +9,12 @@ public class HomeworkThird {
         persArray[3] = new Person("Antonov Anton", "Manager", "anton@mailbox.com", "877777777", 70000, 55);
         persArray[4] = new Person("Artyomov Artyom", "Driver", "artyom@mailbox.com", "86666666", 50000, 25);
         for (Person cycleResult : persArray)
-            if (cycleResult.getAge()>40)
+            if (cycleResult.getAge() > 40)
                 System.out.println(cycleResult);
 
     }
 }
+
 class Person {
     private String name;
     private String position;
@@ -30,9 +31,11 @@ class Person {
         this.salary = salary;
         this.age = age;
     }
+
     public int getAge() {
         return age;
     }
+
     public String toString() {
         return ("Имя работника - " + name + ", Должность - " + position + ", Адрес электронной почты - " + email +
                 ", Номер телефона - " + phoneNumber + ", Зарплата - " + salary + ", Возраст - " + age);
